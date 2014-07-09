@@ -1,7 +1,7 @@
 import os
 
 def encode():
-    x = raw_input("x = ")
+    x = raw_input("data.ctp = ")
     x = x.encode("hex")
     slate = open("data.ctp","w")
     slate.write(x)
